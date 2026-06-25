@@ -1,1 +1,66 @@
 
+# ── OS ────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Editor ────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ── Node (if you add a build tool later) ──────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.npm
+
+# ── Build output ──────────────────────────────
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# ── Environment & secrets ─────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Large 3D asset formats (optional) ─────────
+# Uncomment if you don't want to track binary 3D files in Git
+# *.glb
+# *.gltf
+# *.fbx
+# *.obj
+# *.mtl
+# *.usdz
+
+# ── Large images / media ──────────────────────
+# Uncomment if assets are stored in a CDN instead
+# *.psd
+# *.ai
+# *.mp4
+# *.mov
+
+# ── Logs ──────────────────────────────────────
+logs/
+*.log
+
+# ── Temp ──────────────────────────────────────
+tmp/
+temp/
+*.tmp
+*.bak
