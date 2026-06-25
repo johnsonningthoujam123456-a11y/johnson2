@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barcode 5 Marker</title>
+    <style>
+        body {
+            background-color: white; /* Crucial for ARToolKit tracking */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .marker-container {
+            background: white;
+            padding: 15vh; /* Creates the necessary thick white border */
+        }
+        img {
+            width: 60vh;
+            height: 60vh;
+            image-rendering: pixelated;
+            display: block;
+        }
+        .instructions {
+            position: absolute;
+            top: 20px;
+            font-family: sans-serif;
+            color: #333;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>Barcode 5 Marker</h2>
+        <p>Point your device's camera at this shape. Make sure the entire black border and some white space are visible.</p>
+    </div>
+    <div class="marker-container">
+        <img src="https://raw.githubusercontent.com/nicolocarpignoli/artoolkit-barcode-markers-collection/master/3x3/5.png" alt="Barcode 5 Marker">
+    </div>
+</body>
+</html>
